@@ -21,17 +21,17 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: G-X495X0K5ZC
+ganalytics: G-2GCN4NVYPC
 gadsense: 9815439126917243
 bingmeta: DDD088C441EB7E70576FA1AA1813B8DD
-navermeta: ac86cfd9b4c8420f3952b13037f6e932f03f6d4c
+navermeta: ea507c49b6f460f7b745c88e726ea402208eb412
 
 display_youtube: false
 
 webmaster_verifications:
   google: 9815439126917243
   bing: DDD088C441EB7E70576FA1AA1813B8DD
-  navermeta: ac86cfd9b4c8420f3952b13037f6e932f03f6d4c
+  navermeta: ea507c49b6f460f7b745c88e726ea402208eb412
   # alexa: 1234
   # yandex: 1234
   # baidu: 1234
@@ -42,14 +42,14 @@ about_detail: "우리가 알아야할 지식을 공유합니다.<br/>Share the k
 
 # Authors
 authors:
-  dgn:
-    name: dgn
-    display_name: DigiNom
-    avatar: 'assets/images/diginom.png'
-    email: doum1004@gmail.com
-    web: https://digi-nomard.github.io/
+  wurg:
+    name: wurg
+    display_name: WURG
+    avatar: 'assets/images/profile.png'
+    email: wurg.bz@gmail.com
+    web: https://wu-rg.github.io/
     # twitter: https://twitter.com/partykoreapeople
-    description: "Living in Digital Nomard"
+    description: "WURG"
 
 # Social
 social:

@@ -24,7 +24,7 @@ import requests
 
 def getUrls():
     # URL of the sitemap.xml file
-    sitemap_url = "https://digi-nomard.github.io/sitemap.xml"
+    sitemap_url = "https://wu-rg.github.io/sitemap.xml"
 
     # Fetching the sitemap.xml content
     response = requests.get(sitemap_url)
@@ -49,13 +49,13 @@ def getUrls():
 
 def sendPost(urls: list):
     # POST 요청을 보낼 URL
-    url = "https://www.bing.com/indexnow?url=http://digi-nomard.github.io/product.html&key=96c8b1328f5c40328576f05f7a3c9028"
+    url = "https://www.bing.com/indexnow?url=http://wu-rg.github.io/product.html&key=3549c745ec924d25bd9594cc1d1f060d"
 
     # 요청에 포함될 데이터
     data = {
-        "host": "digi-nomard.github.io",
-        "key": "96c8b1328f5c40328576f05f7a3c9028",
-        "keyLocation": "https://digi-nomard.github.io/96c8b1328f5c40328576f05f7a3c9028.txt",
+        "host": "wu-rg.github.io",
+        "key": "3549c745ec924d25bd9594cc1d1f060d",
+        "keyLocation": "https://wu-rg.github.io/3549c745ec924d25bd9594cc1d1f060d.txt",
         "urlList": urls
     }
 
