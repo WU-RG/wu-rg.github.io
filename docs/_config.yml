@@ -1,0 +1,66 @@
+title: "WURG 우알지"
+description: "WURG 우알지 (죽기전에 우리가 알아야할 지식, Information we must know)"
+email: doum1004@gmail.com
+timezone: Etc/GMT+9
+baseurl: ''
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: DGN
+paginate: 30
+# disqus: 'demowebsite'
+locale: ko_kr
+lang: ko_kr
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: G-X495X0K5ZC
+gadsense: 9815439126917243
+bingmeta: DDD088C441EB7E70576FA1AA1813B8DD
+navermeta: ac86cfd9b4c8420f3952b13037f6e932f03f6d4c
+
+display_youtube: false
+
+webmaster_verifications:
+  google: 9815439126917243
+  bing: DDD088C441EB7E70576FA1AA1813B8DD
+  navermeta: ac86cfd9b4c8420f3952b13037f6e932f03f6d4c
+  # alexa: 1234
+  # yandex: 1234
+  # baidu: 1234
+  # facebook: 1234
+
+about: "@WU-RG"
+about_detail: "우리가 알아야할 지식을 공유합니다.<br/>Share the knowledge we must know."
+
+# Authors
+authors:
+  dgn:
+    name: dgn
+    display_name: DigiNom
+    avatar: 'assets/images/diginom.png'
+    email: doum1004@gmail.com
+    web: https://digi-nomard.github.io/
+    # twitter: https://twitter.com/partykoreapeople
+    description: "Living in Digital Nomard"
+
+# Social
+social:
+  instagram: https://www.instagram.com/wurg.bz/
+  # facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  # twitter: https://twitter.com/bstartercom
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives

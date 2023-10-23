@@ -1,0 +1,1 @@
+distribute && cd docs && bundle && bundle install && jekyll serve --watch && cd ..

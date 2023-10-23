@@ -1,0 +1,1 @@
+python scripts/distribute.py "docs\_posts" "docs\assets\post"
