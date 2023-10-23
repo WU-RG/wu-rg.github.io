@@ -1,6 +1,6 @@
 title: "WURG 우알지"
-description: "WURG 우알지 (죽기전에 우리가 알아야할 지식, Information we must know)"
-email: doum1004@gmail.com
+description: "WURG 우알지 (우리가 알아야할 지식, Information we must know)"
+email: wu-rg.bz@gmail.com
 timezone: Etc/GMT+9
 baseurl: ''
 permalink: "/:title/"
@@ -23,14 +23,14 @@ sass:
   style: :compressed
 ganalytics: G-2GCN4NVYPC
 gadsense: 9815439126917243
-bingmeta: DDD088C441EB7E70576FA1AA1813B8DD
+bingmeta: msvalidate
 navermeta: ea507c49b6f460f7b745c88e726ea402208eb412
 
 display_youtube: false
 
 webmaster_verifications:
   google: 9815439126917243
-  bing: DDD088C441EB7E70576FA1AA1813B8DD
+  bing: msvalidate
   navermeta: ea507c49b6f460f7b745c88e726ea402208eb412
   # alexa: 1234
   # yandex: 1234
