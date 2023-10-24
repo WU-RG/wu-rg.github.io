@@ -73,11 +73,12 @@ class Utils:
             shutil.move(source, destination)
 
     # copy all subfolers and files (except .md files) to under the target folder
-    def copyFolders(source, target):
+    def copyFolders(source, target, exceptExts = {"md", "json", "txt"}):
         for root, dirs, files in os.walk(source):
             for file in files:
-                # check extension that is not .md
-                if file.endswith(".md") or file.endswith(".json") or file.endswith(".txt"):
+                #get file extension
+                ext = os.path.splitext(file)[1]
+                if ext[1:] in exceptExts:
                     continue
                 source_file = os.path.join(root, file)
                 target_file = source_file.replace(source, target)
