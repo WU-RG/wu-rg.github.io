@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Diving Into the Divine Chaos: A Review of The Brand New Testament"
+tags: "movie review,The Brand New Testament,dark comedy,fantasy,Jaco Van Dormael"
+date: 2023-10-21 00:00:00 UTC+09:00"
+categories: 
+image: http://image.yes24.com/blogimage/blog/b/o/bohemian75/IMG_downloadfile-94.jpg
+uuid: bf196d7b
+lang: en
+link: https://www.justwatch.com/kr/%EC%98%81%ED%99%94/the-brand-new-testament
+link-desc: Watch steaming 'The Brand New Testament'
+---
+
+## Intro
+Welcome fellow cinephiles, to another deep-dive into a mesmerizing film. This time, our cinematic passport is stamped for a remarkable journey to the heart of Belgium, where gods walk among men. We explore the contours of a film that elegantly unboxes religious tradition and refolds it into a thought-provoking package of surreal humor, poignant drama and satirical revelations. Prepare for a healthy dose of existential contemplation as we delve into the 2015 fantasy dark comedy, The Brand New Testament, directed by renowned filmmaker Jaco Van Dormael.
+
+
+## Story
+The film presents an enticingly eccentric view of divinity as it depicts God as a cantankerous sadist residing in a nondescript flat in Brussels, alongside his subservient wife and 10-year-old daughter, Ea. In this universe, God isn't a celestial entity but a decidedly terrestrial figure who takes a perverse pleasure in tormenting the denizens of his creation. Ea, empathetic towards the hapless humanity, kick-starts an anarchic rebellion, leaking everyone's death dates and absconds to Earth. She embarks on the ambitious endeavor of writing a 'Brand New Testament,' choosing six unlikely apostles. Through her interactions, the apostles are nudged into unexpected epiphanies, unraveling the fundamental significance of life and love over mere mortality. The parallel narrative of God, locked out of his computer and his cosmos, now forced to grapple with the very adversities he maliciously curated for mankind, adds a touch of divine poetic justice.
+
+
+## Fun Fact
+Did you know that this film is an international co-production among Belgium, France, and Luxembourg? The multilingual aspect it brings was thought to enhance the film's Tower of Babel allegory: a single divine tongue diversifying into many. It's fascinating to see the Biblical references sewn into the very fabric of the film, isn't it?
+
+
+## Similar Movie
+If you appreciated this film's ability to balance humor and social commentary, a similar movie you may enjoy is Jean-Pierre Jeunet's Amélie. This French romantic comedy-drama also explores themes of fate and human connections, although it does so through the lens of a single Parisian woman rather than a divine dynamo.
+
+
+## Conclusion
+Wrapping up our exploration of The Brand New Testament, we're left with an enduring sense of appreciation for this film's effortless audacity. The movie has been widely celebrated, earning several award nominations and securing its place as a cult phenomenon. With its fascinating story, well-rounded characters, and distinctive blend of darkness and humor, it rightfully earns a Rotten Tomatoes rating of 82% and a substantial Metacritic score of 70 out of 100. That's it for this discussion, friends! Don't forget to share your thoughts and impressions of the film in the comments below. Until our next cinematic journey, remember to keep your minds open and your popcorn bowls full!
+
+
+![](http://image.yes24.com/blogimage/blog/b/o/bohemian75/IMG_downloadfile-94.jpg)
+![](http://www.artinsight.co.kr/data/news/1707/1954242427_fiQO62Vy_NMNMNM.jpg)
+![](https://blogthumb.pstatic.net/20160207_265/suahnhue_1454845539163tc6D1_JPEG/movie_imagePF7DE0K0.jpg?type=w2)
+![](https://i.ytimg.com/vi/zF4B1aBFP1U/hqdefault.jpg)
+![](https://mblogthumb-phinf.pstatic.net/20160111_228/thepearlbarn_1452522299535HNmhC_JPEG/movie_image.jpg?type=w800)
+![](https://i.namu.wiki/i/o0AY1M_4VGUGID76URDM_u9as0YWFTK2UJ4H19Hk44Kf09ibvN2-sr0QDEo126upzlVqIBUQwEz7udcu2ME0Hg.webp)
