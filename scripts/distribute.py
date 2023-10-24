@@ -77,7 +77,7 @@ class Utils:
         for root, dirs, files in os.walk(source):
             for file in files:
                 # check extension that is not .md
-                if file.endswith(".md") or file.endswith(".json"):
+                if file.endswith(".md") or file.endswith(".json") or file.endswith(".txt"):
                     continue
                 source_file = os.path.join(root, file)
                 target_file = source_file.replace(source, target)
