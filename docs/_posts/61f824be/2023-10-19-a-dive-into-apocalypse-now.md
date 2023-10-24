@@ -4,7 +4,7 @@ title: "A Dive Into Apocalypse Now"
 tags: "Apocalypse Now,Movies,Cinema,Francis Ford Coppola,Vietnam War"
 date: 2023-10-19 00:00:00 UTC+09:00"
 categories: 
-image: https://edgio.clien.net/F01/5760368/7fd0d4992483d.jpg
+image: https://play-lh.googleusercontent.com/GyLElqfaMK7sfArhJ041_Lqx3_l8XPfgrQIJ9aVNn2tB2rDA0VqCkYmgSRThYwC9x98jLqJZwMFdzEFqSw=w240-h480-rw
 uuid: 61f824be
 lang: en
 link: https://www.justwatch.com/kr/%EC%98%81%ED%99%94/jiogyi-mugsirog
