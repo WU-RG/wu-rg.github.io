@@ -101,8 +101,7 @@ post_class: post-template
             {% endfor %}
             
             {% if page.link %}
-            <div class="card link-card-direction">
-                <a href="{{ post.url | absolute_url }}" target="_blank">
+            <div class="link-card" onclick="window.open('{{ page.link | absolute_url }}','_blank');">
                 <div class="link-box-left">
                     {% if page.image %}
                     <img class="link-box-image rounded mb-4" src="{{ asset_url }}{{ page.image }}" alt="{{ page.title }}">
@@ -110,10 +109,10 @@ post_class: post-template
                     <div class="link-box-image empty-image-container"></div>
                     {% endif %}
                 </div>
-                </a>
                 <div class="link-box-right">
-                    <h2 class="card-title h4 serif-font"><a href="{{ page.link | absolute_url }}">{{page.link-desc}}</a></h2>
-                    <p class="card-text text-muted">{{ page.excerpt | strip_html | truncatewords:15 }}</p>
+                    <h2 class="link-box-title h5 serif-font">{{page.link-desc}}</h2>
+                    <p class="link-box-text text-muted">{{ page.excerpt | strip_html | truncatewords:15 }}</p>
+                    <!-- <p class="link-box-link">{{ page.link }}</p> -->
                 </div>
             </div>
             {% endif %}
