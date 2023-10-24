@@ -8,7 +8,7 @@ image: http://t1.daumcdn.net/cfile/13778F504FB1C78132
 uuid: 150bc624
 lang: en
 link: https://www.justwatch.com/kr/%EC%98%81%ED%99%94/kaebin-in-deo-ujeu
-link-desc: Watch move in steaming 'The Cabin in the Woods'
+link-desc: Watch movie in steaming 'The Cabin in the Woods'
 ---
 
 ## Introduction
