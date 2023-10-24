@@ -10,8 +10,8 @@
   gtag('js', new Date());
   gtag('config', '{{site.ganalytics}}');
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{{site.gadsense}}"
-      crossorigin="anonymous"></script>
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{{site.gadsense}}"
+      crossorigin="anonymous"></script> -->
 <meta property="env:production" content="works" />
 {% endif %}
 
@@ -20,6 +20,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="msvalidate.01" content="{{site.bingmeta}}" />
 <meta name="naver-site-verification" content="{{site.navermeta}}" />
+<meta name="google-adsense-account" content="{{site.gadsense-meta}}">
 {% if page.image %}
 {% assign image_url = {{ page.url | prepend: site.baseurl | prepend: site.url }} | append: "/assets/post/" | append: page.uuid | append: "/" | append: page.image %}
 {% else %}
