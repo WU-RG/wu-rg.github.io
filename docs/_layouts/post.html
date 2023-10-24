@@ -100,6 +100,7 @@ post_class: post-template
                 {% endif %}
             {% endfor %}
             
+            {% if page.link %}
             <div class="card link-card-direction">
                 <a href="{{ post.url | absolute_url }}" target="_blank">
                 <div class="link-box-left">
@@ -115,6 +116,7 @@ post_class: post-template
                     <p class="card-text text-muted">{{ page.excerpt | strip_html | truncatewords:15 }}</p>
                 </div>
             </div>
+            {% endif %}
 
 			<!-- Post Content -->
 			<div class="article-post serif-font">

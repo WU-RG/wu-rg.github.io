@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Premium Rush Movie Review"
+tags: "Action, Thriller, Premium Rush, Film"
+date: 2023-10-22 00:00:00 UTC+09:00"
+categories: 
+image: https://upload.wikimedia.org/wikipedia/en/4/46/Premium_rush_film.jpg
+uuid: 60540a8a
+lang: en
+link: https://www.justwatch.com/us/movie/premium-rush
+link-desc: "프리미엄 러시 영화 스트리밍 다시보기"
+---
+
+## Intro
+Prepare for the ride of your life as you delve into the adrenaline-fuelled world of 'Premium Rush,' a film that takes the term 'high-speed chase' to thrilling, new altitudes. Directed by David Koepp and co-written with John Kamps, 'Premium Rush' catapults movie-goers into the heart of New York City, where every second counts, every turn spells danger, and the simple task of delivering a package becomes a life-threatening exercise.
+
+
+## Story
+The raw and frenetic streets of New York serve as a vast, open labyrinth for our protagonist Wilee (Joseph Gordon-Levitt), a law graduate turned bike courier. Eschewing a traditional, and ostensibly mundane, legal career for the thrill and freedom of being a messenger, Wilee's life takes a dramatic, dangerous turn when he is tasked with delivering an envelope containing a $50,000 ticket. This single mission spirals into a breakneck chase through the city streets, as he must outwit, outmaneuver, and outsmart a corrupt cop, Robert Monday (Michael Shannon), desperately hell-bent on seizing the ticket to alleviate his gambling debts. The film brilliantly illustrates the latent lethality of the urban jungle, showcasing the frenzied chaos and unexpected hazards that transform Wilee's unique job into a high-stakes, high-speed battle-against-the-clock.
+
+
+## Fun fact
+Adding a sense of gritty realism and human engagement to the narrative, the depictions of breathless bike chases were so authentic that lead actor Gordon-Levitt suffered an injury during filming, requiring 31 stitches - reflecting the perilous spirit of the film and the lengths gone to bring verisimilitude to the big screen.
+
+
+## Similar movie
+Fans of 'Premium Rush' might find themselves equally enthralled by 'The Courier,' a 2019 action-packed film that carries a similar sense of breakneck urgency and suspense. The movie focuses on a female motorcycle courier who must prevent a bomb from exploding after it's strapped to her body; another example of the courier genre exploring perilous tasks and encounters with dark elements of the underworld.
+
+
+## Conclusion
+Despite its performance at the box-office and a rather vexatious lawsuit alleging plagiarism of 'The Ultimate Rush' by Joe Quirk, 'Premium Rush' managed to carve a niche for itself in the action-thriller genre. It’s lauded for its heart-stopping chases and its spirited portrayal of New York's bike messenger subculture. Much like its protagonist, 'Premium Rush' dodges the expectation of typical blockbusters, embracing a distinctive storytelling style that keeps spectators on the edge of their seats, hearts racing, right through to its climactic resolution. In the realm of cinematic escapism, 'Premium Rush' lets you taste the thrill of the chase, basking in the fast-paced danger and freedom embodied in the life of a daring New York City bike messenger. Feel the rush!
+
+
+![](https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/chameleon/title-movie/245647_PREMIUM%20RUSH_1400x2100%20%20UV_Eng_1.jpg?itok=3-ToH7Kk)

@@ -33,5 +33,3 @@ In all, 'The Animatrix' is a mesmerizing anthology that enriches the Matrix univ
 
 ![](https://m.media-amazon.com/images/M/MV5BMmU0MWNlNDktNDkyNy00MzFlLThjY2EtZDMzY2M3YzM0OThjXkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_FMjpg_UX1000_.jpg)
 ![](https://m.media-amazon.com/images/M/MV5BMTY3NjU3NzI4MV5BMl5BanBnXkFtZTYwNzA0NzEz._V1_.jpg)
-![](https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/msnbc/1831000/1831300.jpg)
-![](https://m.media-amazon.com/images/M/MV5BMTY1MDE1MDU4Ml5BMl5BanBnXkFtZTYwMjA0NzEz._V1_.jpg)
