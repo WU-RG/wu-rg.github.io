@@ -10,6 +10,9 @@ topmenu:
 # - title: Contact
 #   url: "contact/"
 
+- title: Community
+  url: "community/"
+
 - title: Category
   url: "categories/"
 

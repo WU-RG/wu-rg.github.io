@@ -294,7 +294,6 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mainheading h1.posttitle {
 	font-weight:700;
-    margin-top: 1rem;
 	margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     -webkit-text-stroke: 0.2px white; /* For Safari and Chrome */
@@ -750,4 +749,140 @@ span.navigation:before {
 .hover-opacity:hover {
     // transition: all.3s;
     opacity:.8;
+}
+
+.page-top {
+    margin-top: 1rem;
+}
+
+.comment-list {
+    float: left;
+    display: table;
+}
+
+.comment-list-li {
+    list-style: none;
+    padding-left: 0px;
+    list-style-type: none;
+    position: relative;
+    /* background-color: #ffffff; */
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.comment-item {
+    flex-direction: row;
+    position: relative;
+    display: table-row;
+}
+
+.comment-item-row {
+    display: flex
+}
+
+.comment-item-name {
+    float: left;
+    min-width: 60px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.comment-item-date {
+    float: left;
+    margin-left: 10px;
+}
+
+.comment-item-delete {
+    float: right;
+    text-align: right;
+    flex-grow: 1;
+}
+
+.comment-item-content {
+    margin-top: 10px;
+    float: left;
+}
+
+.comment-table {
+    margin-top: 2rem;
+    width: 100%;  /* 원하는 너비 설정 */ 
+    flex-direction: row;
+    position: relative;
+}
+
+.comment-table-row1 {
+    margin-bottom: 5px;
+    float: left;
+}
+
+.comment-table textarea {
+    width: 100%;
+    height: 55px;
+    line-height : normal;
+    padding: .8em .5em;
+    font-family: inherit;
+    border: 1px solid #999;
+    border-radius: 0;
+    outline-style: none;  /* 포커스시 발생하는 효과 제거를 원한다면 */
+    -webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.comment-table button {
+    margin: 0px 0px;
+    padding: .0em .5em;
+    height: 25px;
+    font-family: inherit;
+    border-radius: 30;
+    border: 1px solid #999;
+    align-self: right;
+    vertical-align: middle;
+}
+
+.comment-table input[type="text"],
+.comment-table input[type="password"] {
+    width: 110px;
+    height: 25px;
+    line-height : normal;
+    padding: .8em .5em;
+    font-family: inherit;
+    border: 1px solid #999;
+    border-radius: 0;
+    outline-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#overlay-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#overlay-item-row {
+    display: flex;
+}
+
+#overlay-item-row input {
+    margin-right: 5px;
 }

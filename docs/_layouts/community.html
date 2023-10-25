@@ -1,0 +1,23 @@
+---
+title: "Community"
+layout: board
+permalink: "/community.html"
+---
+
+<div class="comment-table">
+    <div class="comment-table-row1">
+        <input type="text" id="input-comment-name" placeholder="NAME" required>
+        <input type="password" id="input-comment-pass" placeholder="PASS" required>
+        <button type="button" id="input-comment-submit" class="btn btn_lg btn_primary" onclick="submitToAPI(event)" disabled>Submit</button>
+    </div>
+    <br>
+    <div>
+        <textarea type="text" id="input-comment-content" placeholder="Add a message..." wrap="off" required></textarea>
+    </div>
+</div>
+
+<div id="comment-list">
+    Loading ... 
+</div>
+<br>
+<button type="button" class="btn btn_lg btn_primary" onclick="loadBoardNext()">Load More</button>
