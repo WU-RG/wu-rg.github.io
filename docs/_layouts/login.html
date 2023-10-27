@@ -1,0 +1,29 @@
+---
+title: "Login"
+layout: layout_userinfo
+permalink: "/login.html"
+---
+
+
+<div class="login-page">
+  <div class="login-page-form">
+    <form class="login-form">
+      <input type="name" id="input-login-name" placeholder="username" required/>
+      <input type="password" id="input-login-pass" placeholder="password" required/>
+      <button onclick="log_in()">login</button>
+      <p class="message">Not registered? <a href="#" onclick="javascript:toggle_login_form(1);">Create an account</a></p>
+    </form>
+    <form class="register-form">
+      <input type="name" id="input-signup-name" placeholder="username" required/>
+      <input type="password" id="input-signup-pass" placeholder="password" required/>
+      <input type="text" id="input-signup-email" placeholder="email address" required/>
+      <button onclick="sign_up()">create</button>
+      <p class="message">Already registered? <a href="#" onclick="javascript:toggle_login_form(0);">Sign In</a></p>
+    </form>
+    <form class="register-confirmation-form">
+      <input type="text" id="input-signup-code" placeholder="code" />
+      <button onclick="sign_up_confirmation()">confirmation</button>
+      <p class="message">Already registered? <a href="#" onclick="javascript:toggle_login_form(0);">Sign In</a></p>
+    </form>
+  </div>
+</div>

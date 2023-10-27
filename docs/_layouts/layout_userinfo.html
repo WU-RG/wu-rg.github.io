@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+{% include header.html %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.3.5.js"></script>
+<script src="https://rawgit.com/aws/amazon-cognito-identity-js/master/dist/aws-cognito-sdk.min.js"></script>
+<script src="https://rawgit.com/aws/amazon-cognito-identity-js/master/dist/amazon-cognito-identity.min.js"></script>
+
+<script src="{{ site.baseurl }}/scripts/login.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        check_login();
+    });
+
+</script>
+
+</head>   
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
+
+{% include menu.html %}
+
+{% include content.html %}
+
+</body>
+    
+</html>
