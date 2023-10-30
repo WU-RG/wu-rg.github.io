@@ -1,33 +1,14 @@
-var albumBucketName = "---------------------";
+const comment_url = "https://ar8qo8k2ej.execute-api.us-east-1.amazonaws.com/default_stage/comment_resource";
+var boardId = 'wurg_board_market';
 var bucketRegion = "-------------------------";
-var identityPoolId = "-----------------------";
-var boardId = 'wurg_board';
 var tableName = 'simple_board';
 var board_order_fifo = 'false'
 
-$(document).ready(function() {
-    subscribeCommentSubmitButtonUpdate();
-});
-
-AWS.config.update({
-  region: bucketRegion,
-  credentials: new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: identityPoolId
-  })
-});
- 
 // var s3 = new AWS.S3({
 //   apiVersion: "2006-03-01",
 //   params: { Bucket: albumBucketName }
 // });
  
-const comment_url = "https://ar8qo8k2ej.execute-api.us-east-1.amazonaws.com/default_stage/comment_resource";
-
-function submitToAPI(e){
-    e.preventDefault();
-    upload_to_db();
- }
-
 function createNode(element, className) {
     var node = document.createElement(element);
     node.className = className;
@@ -36,35 +17,6 @@ function createNode(element, className) {
 
 function append(parent, el) {
     return parent.appendChild(el);
-}
-
-var commentCount = 0;
-function loadBoardCount() {
-    var newCommentCount = 0;
-    fetch(comment_url + "?TableName=" + tableName + "&board_id=" + boardId + "&Count", {
-        method: "GET",
-        headers: {
-            'Accept': 'application/json'
-        }
-    }).then(resp => resp.json())
-    .then(function(data) {
-        newCommentCount = data.Count;
-        if (newCommentCount == commentCount)
-        {
-            redrawBoard();
-            return;
-        }
-        commentCount = newCommentCount;
-        loadBoard();
-    })
-    .catch(err => console.log(err))
-}
-
-function loadBoardNext() {
-    // load next using lastEvaluatedKey
-    if (lastEvaluatedKey == null)
-        return;
-    loadBoard(false, lastEvaluatedKey.board_time);
 }
 
 let items = [];
@@ -176,6 +128,11 @@ function delete_to_db(createdTime, name, pass) {
     });
 }
 
+function submitToAPI(e){
+    e.preventDefault();
+    upload_to_db();
+ }
+ 
 function upload_to_db() {
     var article_name = document.querySelector("#input-comment-name");
     var article_pass = document.querySelector("#input-comment-pass");
@@ -221,48 +178,6 @@ function upload_to_db() {
     })
 }
  
-function add_article_with_photo(albumName) {
-    var files = document.getElementById("article_image").files;
-    if (!files.length) {
-        return alert("Please choose a file to upload first.");
-    }
-    var file = files[0];
-    var fileName = file.name;
-    var albumPhotosKey = encodeURIComponent(albumName) + "/";
-    var albumPhotosKey = albumName + "/";
- 
-    var photoKey = albumPhotosKey + fileName;
- 
-    // Use S3 ManagedUpload class as it supports multipart uploads
-    var upload = new AWS.S3.ManagedUpload({
-        params: {
-        Bucket: albumBucketName,
-        Key: photoKey,
-        Body: file
-        }
-    });
- 
-    var promise = upload.promise();
- 
-    let img_location;
- 
-    promise.then(
-        function(data) {
-        //이미지 파일을 올리고 URL을 받아옴
-        img_location = JSON.stringify(data.Location).replaceAll("\"","");
-        // console.log(img_location);
-        
-        upload_to_db(img_location);
- 
-        return alert("Successfully uploaded photo.");;
-        },
-        function(err) {
-            console.log(err);
-        return alert("There was an error uploading your photo: ", err.message);
-        }
-    );
-}
-
 function timeForToday(value) {
     const today = new Date();
     const timeValue = new Date(parseInt(value));
@@ -285,29 +200,3 @@ function timeForToday(value) {
     return `${betweenTimeYears} years ago`;
  }
  
-function subscribeCommentSubmitButtonUpdate() {
-    const inputName = document.querySelector('#input-comment-name');
-    const inputPass = document.querySelector('#input-comment-pass');
-    const inputContent = document.querySelector('#input-comment-content');
-    const inputSubmit = document.querySelector('#input-comment-submit');
-
-    if (inputName)
-        inputName.addEventListener('keyup', activeEvent);
-    if (inputPass)
-        inputPass.addEventListener('keyup', activeEvent);
-    if (inputContent)
-        inputContent.addEventListener('keyup', activeEvent);
-
-    function activeEvent() {
-        if (!inputSubmit)
-            return;
-        
-        hasInputNameValue = inputName && inputName.value;
-        hasInputPassValue = inputPass && inputPass.value;
-        hasInputContentValue = inputContent && inputContent.value;
-        switch(!(hasInputNameValue && hasInputPassValue && hasInputContentValue)){
-            case true : inputSubmit.disabled = true; break;
-            case false : inputSubmit.disabled = false; break
-        }
-    }
-}
