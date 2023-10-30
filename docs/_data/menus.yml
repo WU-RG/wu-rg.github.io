@@ -10,12 +10,18 @@ topmenu:
 # - title: Contact
 #   url: "contact/"
 
-# - title: Login
-#   url: "login/"
+- title: Login
+  url: "login/"
+
+- title: Market
+  url: "market/"
 
 - title: Community
   url: "community/"
 
+- title: Photo
+  url: "photo/"
+  
 - title: Category
   url: "categories/"
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+{% include header.html %}
+
+<script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/comment.js"></script>
+<script type="text/javascript">
+  
+  let comment_board_time = '';
+  let comment_board_name = '';
+  function layout_delete_comment_on(board_time, board_name) {
+      comment_board_time = board_time;
+      comment_board_name = board_name;
+
+      var inputPass = document.querySelector('#input-comment-delete-pass');
+      inputPass.value = "";
+      document.getElementById("overlay").style.display = "block";
+      inputPass.select();
+      inputPass.setSelectionRange(0, 99999);
+      inputPass.select();
+  }
+      
+  function layout_off() {
+      document.getElementById("input-comment-delete-pass").value = "";
+      document.getElementById("overlay").style.display = "none";
+  }
+
+  function delete_comment() {
+      var inputPass = document.querySelector('#input-comment-delete-pass');
+      delete_to_db(comment_board_time, comment_board_name, inputPass.value);
+      inputPass.select();
+      inputPass.setSelectionRange(0, 99999);
+      inputPass.select();
+  }
+
+  function add_delete_input_listener() {
+      var inputButton = document.querySelector('#input-comment-delete-pass');
+      inputButton.addEventListener("keypress", function(event) {
+          // If the user presses the "Enter" key on the keyboard
+          if (event.key === "Enter") {
+              // Cancel the default action, if needed
+              event.preventDefault();
+              // Trigger the button element with a click
+              document.getElementById("input-comment-delete-button").click();
+          }
+      });
+  }
+
+  $(document).ready(function() {
+    console.log("test");
+    loadBoard();
+    add_delete_input_listener();
+  });
+  
+</script>
+
+</head>   
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
+
+{% include menu.html %}
+
+{% include content.html %}
+
+
+<div id="overlay" onclick="layout_off()">
+  <div id="overlay-item" onclick="event.stopPropagation()">
+      <div id="overlay-item-row">
+          <input type="password" id="input-comment-delete-pass" placeholder="PASS" required>
+          <button type="button" id="input-comment-delete-button" class="btn btn_lg btn_primary" onclick="delete_comment()">Delete</button>
+      </div>
+  </div>
+</div>
+  
+
+</body>
+    
+</html>

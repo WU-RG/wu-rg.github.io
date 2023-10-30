@@ -1,0 +1,19 @@
+---
+title: "Photo"
+layout: layout_board
+permalink: "/photo.html"
+---
+
+<div>
+    <h4>Select Image</h4>
+    <input id="myImage" type="file" />
+    <button onclick="addPhoto()">
+        클라이언트에서 바로 업로드
+    </button>
+  </div>
+
+  <div id="drop_zone" ondrop="dropHandler(event);">
+    <p>Drag one or more files to this <i>drop zone</i>.</p>
+  </div>
+  
+  <div id="app"></div>
