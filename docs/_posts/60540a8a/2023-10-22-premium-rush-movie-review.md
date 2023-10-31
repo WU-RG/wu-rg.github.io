@@ -8,7 +8,7 @@ image: https://upload.wikimedia.org/wikipedia/en/4/46/Premium_rush_film.jpg
 uuid: 60540a8a
 lang: en
 link: https://www.justwatch.com/us/movie/premium-rush
-link-desc: "프리미엄 러시 영화 스트리밍 다시보기"
+link-desc: "Watch movie 'Rush' in streaming"
 ---
 
 ## Intro
